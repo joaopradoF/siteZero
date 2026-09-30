@@ -1,1 +1,1 @@
-Deixe o ZOOMdo chrome em 80%
+Deixe o ZOOM do chrome em 80%
