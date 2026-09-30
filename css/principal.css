@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&family=Roboto+Slab:wght@400;700;800;900&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -35,8 +36,8 @@
 .preVenda a {
     color: white;
     background-color: darkred;
-    padding: 12px 20px;
-    border-radius: 20px;
+    padding: 1px 30px;
+    border-radius: 13px;
     font-family: 'Roboto Slab', serif;
 }
 
@@ -71,14 +72,13 @@ main img {
     border-left: 500px;
 }
 
-main h1 {
-    color: white;
-    text-shadow: 2px 2px 3px black;
-    margin-bottom: 30px;
-    background-color: black;
-    border-radius: 50px
-}
-
 main .preVenda {
     font-size: 60px;
+}
+
+.subtitulo h1 {
+    color: #D3D3D3;
+    margin-bottom: 30px;
+    background-color: black;
+    border-radius: 10px;
 }

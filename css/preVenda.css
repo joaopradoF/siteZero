@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&family=Roboto+Slab:wght@400;700;800;900&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -35,8 +36,8 @@
 .preVenda a {
     color: white;
     background-color: darkred;
-    padding: 12px 20px;
-    border-radius: 20px;
+    padding: 1px 30px;
+    border-radius: 13px;
     font-family: 'Roboto Slab', serif;
 }
 
@@ -62,6 +63,7 @@ main {
     top: 60px;
     left: 150px;
 }
+
 .subtitulo a {
     color: red;
     font-size: 40px;
@@ -77,40 +79,43 @@ main {
 
 .subtitulo p {
     color: lightblue;
-    font-size:40px;
+    font-size: 40px;
 }
 
-/* Titulos */
+/* Precos */
 
-.precos{
-    display:flex;
-    justify-content: space-around;
+.precos {
+    display: flex;
+    justify-content: center;
     margin-top: 300px;
     font-family: 'Roboto Slab', serif;
+    gap:50px;
 }
+
 .precos h1 {
-    color:lightblue;
+    color: lightblue;
     font-size: 55px;
     font-weight: 800;
     font-family: 'Roboto', sans-serif;
 }
 
 .precos h2 {
-    color:lightblue;
-    font-size:25px;
+    color: lightblue;
+    font-size: 25px;
 }
 
 .precos li {
-    color:#d7d7d7;
-    font-size:22px;
+    color: #d7d7d7;
+    font-size: 22px;
 }
+
 .precos div {
     background-color: #1c1c1c;
-    padding: 15px 40px;
+    padding: 25px 20px;
     border-radius: 15px;
 }
 
 .precos h3 {
     font-size: 65px;
-    color: darkred;
+    color: rgb(180, 0, 0);
 }

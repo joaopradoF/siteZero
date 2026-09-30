@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&family=Roboto+Slab:wght@400;700;800;900&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -35,8 +36,8 @@
 .preVenda a {
     color: white;
     background-color: darkred;
-    padding: 12px 20px;
-    border-radius: 20px;
+    padding: 1px 30px;
+    border-radius: 13px;
     font-family: 'Roboto Slab', serif;
 }
 
@@ -62,6 +63,7 @@ main {
     top: 60px;
     left: 150px;
 }
+
 .subtitulo a {
     color: red;
     font-size: 40px;
@@ -77,13 +79,14 @@ main {
 
 .subtitulo p {
     font-size: 40px;
-    color:#d7d7d7;
+    color: #d7d7d7;
 }
 
 .imagemPrincipal img {
     height: 530px;
     width: auto;
 }
+
 .imagemPrincipal {
     position: absolute;
     top: 120px;
@@ -100,7 +103,7 @@ main .informacoes {
     justify-content: center;
 
     background-color: transparent;
-    color: black;
+    color: #d7d7d7;
 }
 
 .informacoes ul {
@@ -109,7 +112,7 @@ main .informacoes {
 }
 
 .informacoes li {
-    background-color: #d7d7d7;
+    background-color: #1c1c1c;
     padding: 3px 100px;
     border-radius: 6px;
     font-size: 60px;
