@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    text-decoration: none;
+}
+
+.cabecalho {
+    display: flex;
+    padding: 10px 50px;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho a {
+    font-size: 30px;
+}
+
+.menu{
+    display: flex;
+    gap:40px;
+}
+.menu a{
+    color: white;
+}
+
+.preVenda a{
+    color: white;
+    background-color: darkred;
+    padding: 12px 20px;
+    border-radius: 20px;
+}
+
+.logo img {
+    height: 80px;
+    width: auto;
+}
+
+
+/* Fim do cabeçalho, início do main */
+
+main {
+    min-height: calc(100vh - 103px);
+    background-image: url("../img/hero-cidade-base.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: relative;
+}
+
+.subtitulo {
+    position: absolute;
+    top: 100px;
+    left: 900px;
+    width: 700px;
+    text-align: center;
+}
+
+main img {
+    width: 700px;
+    height: auto;
+    border-left: 500px;
+}
+
+main h1 {
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    margin-bottom: 30px;
+    background-color: black;
+    border-radius: 50px
+}
+
+main .preVenda {
+    font-size: 60px;
+}
+
